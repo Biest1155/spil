@@ -45,8 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TicTacToe.cs" />
-    <Compile Include="TicTacToeMenu.cs" />
+    <Compile Include="..\..\..\TicTacToe.cs">
+      <Link>TicTacToe.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\TicTacToeMenu.cs">
+      <Link>TicTacToeMenu.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
